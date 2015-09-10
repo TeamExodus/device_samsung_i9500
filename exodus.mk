@@ -1,12 +1,12 @@
 $(call inherit-product, device/samsung/i9500/full_i9500.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/exodus/config/nfc_enhanced.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/exodus/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_i9500
+PRODUCT_NAME := exodus_i9500
 PRODUCT_DEVICE := i9500
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
